@@ -46,8 +46,8 @@ AIPROJ/
 
 ## ⚙️ Training Configuration
 - Image Size: 512 × 512  
-- Epochs: 50–70  
-- Batch Size: 4  
+- Epochs: 60  
+- Batch Size: 8  
 - Early Stopping (Patience): Enabled  
 
 ### 🔄 Data Augmentation
