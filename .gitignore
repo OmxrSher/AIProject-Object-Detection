@@ -1,0 +1,31 @@
+# =========================
+# DATASETS (EXCLUDE ONLY THESE)
+# =========================
+custom_dataset/
+dataset sources/
+demo_images/
+
+# =========================
+# LARGE MODEL FILES (optional but recommended)
+# =========================
+*.pt
+*.onnx
+*.engine
+
+# =========================
+# CACHE / TEMP
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE FILES
+# =========================
+.vscode/
+.idea/
