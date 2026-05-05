@@ -19,7 +19,7 @@ def ensure_dirs():
     for split in SPLITS:
         split_path = os.path.join(TARGET_BASE, split)
 
-        # 🔥 delete old split if exists
+        #delete old split if exists
         if os.path.exists(split_path):
             shutil.rmtree(split_path)
 
@@ -66,7 +66,7 @@ def main():
     files_by_split = split_files(files)
     copy_split(files_by_split)
 
-    print("✅ Split complete.")
+    print("Split complete.")
     for split, split_files_list in files_by_split.items():
         print(f"{split}: {len(split_files_list)} images")
 
