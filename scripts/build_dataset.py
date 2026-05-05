@@ -109,7 +109,7 @@ def main():
         total += copied
         print(f"{dataset_name}: copied {copied} images")
 
-    print(f"\n✅ Done. Total merged images: {total}")
+    print(f"\nDone. Total merged images: {total}")
     print(f"Images folder: {OUT_IMAGES}")
     print(f"Labels folder: {OUT_LABELS}")
 
